@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8AEA9D13F3C2DF007E2A90 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8AEA9C13F3C2DF007E2A90 /* MediaPlayer.framework */; };
+		6ECA604613EA332600FF7F81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECA604513EA332600FF7F81 /* Foundation.framework */; };
+		6ECA604C13EA332600FF7F81 /* IPaMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECA604B13EA332600FF7F81 /* IPaMoviePlayerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E8AEA9C13F3C2DF007E2A90 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6ECA604213EA332600FF7F81 /* libIPaMoviePlayerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIPaMoviePlayerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECA604513EA332600FF7F81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ECA604913EA332600FF7F81 /* IPaMoviePlayerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPaMoviePlayerController-Prefix.pch"; sourceTree = "<group>"; };
+		6ECA604A13EA332600FF7F81 /* IPaMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPaMoviePlayerController.h; sourceTree = "<group>"; };
+		6ECA604B13EA332600FF7F81 /* IPaMoviePlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPaMoviePlayerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECA603F13EA332600FF7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8AEA9D13F3C2DF007E2A90 /* MediaPlayer.framework in Frameworks */,
+				6ECA604613EA332600FF7F81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECA603713EA332600FF7F81 = {
+			isa = PBXGroup;
+			children = (
+				6E8AEA9C13F3C2DF007E2A90 /* MediaPlayer.framework */,
+				6ECA604713EA332600FF7F81 /* IPaMoviePlayerController */,
+				6ECA604413EA332600FF7F81 /* Frameworks */,
+				6ECA604313EA332600FF7F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECA604313EA332600FF7F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECA604213EA332600FF7F81 /* libIPaMoviePlayerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECA604413EA332600FF7F81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECA604513EA332600FF7F81 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ECA604713EA332600FF7F81 /* IPaMoviePlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				6ECA604A13EA332600FF7F81 /* IPaMoviePlayerController.h */,
+				6ECA604B13EA332600FF7F81 /* IPaMoviePlayerController.m */,
+				6ECA604813EA332600FF7F81 /* Supporting Files */,
+			);
+			path = IPaMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		6ECA604813EA332600FF7F81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ECA604913EA332600FF7F81 /* IPaMoviePlayerController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ECA604013EA332600FF7F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ECA604113EA332600FF7F81 /* IPaMoviePlayerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECA604F13EA332600FF7F81 /* Build configuration list for PBXNativeTarget "IPaMoviePlayerController" */;
+			buildPhases = (
+				6ECA603E13EA332600FF7F81 /* Sources */,
+				6ECA603F13EA332600FF7F81 /* Frameworks */,
+				6ECA604013EA332600FF7F81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPaMoviePlayerController;
+			productName = IPaMoviePlayerController;
+			productReference = 6ECA604213EA332600FF7F81 /* libIPaMoviePlayerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECA603913EA332600FF7F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6ECA603C13EA332600FF7F81 /* Build configuration list for PBXProject "IPaMoviePlayerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ECA603713EA332600FF7F81;
+			productRefGroup = 6ECA604313EA332600FF7F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECA604113EA332600FF7F81 /* IPaMoviePlayerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECA603E13EA332600FF7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECA604C13EA332600FF7F81 /* IPaMoviePlayerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6ECA604D13EA332600FF7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ECA604E13EA332600FF7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECA605013EA332600FF7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/IPaMoviePlayerController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPaMoviePlayerController/IPaMoviePlayerController-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6ECA605113EA332600FF7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/IPaMoviePlayerController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPaMoviePlayerController/IPaMoviePlayerController-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECA603C13EA332600FF7F81 /* Build configuration list for PBXProject "IPaMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECA604D13EA332600FF7F81 /* Debug */,
+				6ECA604E13EA332600FF7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECA604F13EA332600FF7F81 /* Build configuration list for PBXNativeTarget "IPaMoviePlayerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECA605013EA332600FF7F81 /* Debug */,
+				6ECA605113EA332600FF7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECA603913EA332600FF7F81 /* Project object */;
+}
