@@ -3,6 +3,10 @@ IPaMoviePlayerController
 
 Block-base MPMoviePlayerController
 
+it is Hierarchy from MPMoviePlayerController
+
+so you need to add MediaPlayer.framework to your project
+
 you can easily use class method
 
 + (void)playMovieWithResource:(NSString*)SourceName ofType:(NSString*)ofType 
