@@ -188,6 +188,7 @@
 		6ECA605013EA332600FF7F81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/IPaMoviePlayerController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -202,6 +203,7 @@
 		6ECA605113EA332600FF7F81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/IPaMoviePlayerController.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -9,7 +9,7 @@
 //  Have to include MediaPlayer.framework
 //================================
 #import <Foundation/Foundation.h>
-#import <MediaPlayer/MediaPlayer.h>
+@import MediaPlayer;
 
 @interface IPaMoviePlayerController : MPMoviePlayerController {
 
