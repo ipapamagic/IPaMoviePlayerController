@@ -47,7 +47,7 @@ static NSMutableArray *moviePlayerList;
 
 -(void)onPlaybackStateChange:(NSNotification*)noti
 {
-    NSLog(@"PlaybackStateChange!");
+//    NSLog(@"PlaybackStateChange!");
 }
 //@synthesize delegate;
 + (void)playMovieWithURL:(NSURL*)URL
